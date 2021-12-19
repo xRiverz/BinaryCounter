@@ -13,6 +13,8 @@
 		8401B858276B5CD500C8FD32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401B856276B5CD500C8FD32 /* Main.storyboard */; };
 		8401B85A276B5CD600C8FD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8401B859276B5CD600C8FD32 /* Assets.xcassets */; };
 		8401B85D276B5CD600C8FD32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401B85B276B5CD600C8FD32 /* LaunchScreen.storyboard */; };
+		8401B865276B6F2E00C8FD32 /* CustomCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401B864276B6F2E00C8FD32 /* CustomCD.swift */; };
+		8401B867276B6FDE00C8FD32 /* customCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401B866276B6FDE00C8FD32 /* customCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8401B859276B5CD600C8FD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8401B85C276B5CD600C8FD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8401B85E276B5CD600C8FD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8401B864276B6F2E00C8FD32 /* CustomCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCD.swift; sourceTree = "<group>"; };
+		8401B866276B6FDE00C8FD32 /* customCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				8401B859276B5CD600C8FD32 /* Assets.xcassets */,
 				8401B85B276B5CD600C8FD32 /* LaunchScreen.storyboard */,
 				8401B85E276B5CD600C8FD32 /* Info.plist */,
+				8401B864276B6F2E00C8FD32 /* CustomCD.swift */,
+				8401B866276B6FDE00C8FD32 /* customCell.swift */,
 			);
 			path = BinaryCounter;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				8401B855276B5CD500C8FD32 /* ViewController.swift in Sources */,
 				8401B851276B5CD500C8FD32 /* AppDelegate.swift in Sources */,
+				8401B867276B6FDE00C8FD32 /* customCell.swift in Sources */,
 				8401B853276B5CD500C8FD32 /* SceneDelegate.swift in Sources */,
+				8401B865276B6F2E00C8FD32 /* CustomCD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
